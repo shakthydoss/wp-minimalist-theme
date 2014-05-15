@@ -1,0 +1,160 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300);
+
+body {
+    width: 83em;
+    margin: 0 auto;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #444;
+    word-spacing: 0.2em;
+    line-height:1.3em;	
+	font-size:90%;
+}
+
+a, a:visited {
+    color: #00f;
+}
+
+.page-header{
+	padding:5px 0;
+	border-bottom: 1px solid #ccc;
+}
+.page-header div{
+	display:inline-table;
+}
+
+.page-header h2{
+	font-size: 0.85em;
+	color: #777;
+}
+.page-footer{
+	font-size: 0.81em;
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+	text-align:center;
+	padding: 10px 0 10px 0;
+}
+
+.header-thumbnail{
+	display: block;
+	font-size: 0;
+	float: left;
+}
+
+.pull-right{	
+    width: 64%;
+}
+
+.search-form{
+	 display: block; 
+	 float: right;  
+}
+.content{
+	float: left;
+	width: 50em;
+}
+.sidebar{
+	float: left;
+	width: 18.334em;	
+	font-size: 0.9em;
+	text-align: left;
+}
+
+.post{
+	margin: 0;
+	padding: 1em 1em 1em 0;
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #ccc;
+	text-align: justify;
+}
+
+.post header{
+	background: #dfd;
+	padding: 0.2em;
+	border: 1px solid #afa;
+}
+
+.post header h2{
+	font-size: 0.81em;
+	color: #777;
+}
+
+.post .post-content{
+	padding:5px 10px;
+}
+
+.post .post-content p{
+	padding:5px 0;
+}
+.post footer{
+	padding:5px 10px;
+	font-size: 0.81em;
+}
+
+.post footer .meta {
+	padding:0;
+}
+
+.small-font{
+	font-size: 0.81em;
+}
+.sidebar aside{
+	padding-top: 0.7em;		
+	padding-bottom: 0.7em;			
+}
+
+.sidebar aside h1{
+	margin: 0;
+	padding: 0.3em;
+	color: #777;
+}
+
+.sidebar aside .sidebar-content{
+	margin-left: 1em;
+
+}
+
+.sidebar-content ul li{
+	padding: 0.1em 0.3em;
+}
+
+.sidebar aside table{
+	font-size: 0.9em;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.sidebar aside table td {
+	padding: 0.1em 0.3em;
+}
+
+.sidebar aside table td.count {
+	text-align: right;
+	color: #999;
+}
+
+
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"], button {
+	padding: 1px 6px;
+	height:22px;
+}
+
+.textbox { 
+    border: solid 1px #646464; 
+    outline: none; 
+    padding: 2px 2px; 
+	width:150px;
+	height:16px;
+} 
+.textbox:focus { 
+    background-color: #eff; 
+} 
+.textbox:active { 
+    background-color: #eff; 
+}
+
+p.social{
+	font-size: 0.81em;
+}
+
+
